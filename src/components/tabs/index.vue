@@ -90,17 +90,14 @@ export default {
       this.setCurrentIndex(value, pane)
     },
     keydownHandler (e) {
-      e.preventDefault()
       const keyCode = e.keyCode
       let nextIndex
       let currentIndex, tabList, validTabArray
-      if ([37, 38, 39, 40].indexOf(keyCode) !== -1) {
-        tabList = e.currentTarget.querySelectorAll('[role=tab]')
-        validTabArray = Array.prototype.slice.call(tabList).filter(item => +item.getAttribute('tabindex') !== -1)
-        currentIndex = Array.prototype.indexOf.call(validTabArray, e.target)
-      } else {
-        return
-      }
+      if ([37, 38, 39, 40].indexOf(keyCode) === -1) return
+      e.preventDefault()
+      tabList = e.currentTarget.querySelectorAll('[role=tab]')
+      validTabArray = Array.prototype.slice.call(tabList).filter(item => +item.getAttribute('tabindex') !== -1)
+      currentIndex = Array.prototype.indexOf.call(validTabArray, e.target)
       if (keyCode === 37 || keyCode === 38) {
         if (currentIndex === 0) {
           nextIndex = validTabArray.length - 1

@@ -1,3 +1,39 @@
+## [0.7.7](https://github.com/clair-design/clair/compare/v0.7.6...v0.7.7) (2019-01-24)
+
+
+### Bug Fixes
+
+* **cascader:** changing icon to border ([89994ee](https://github.com/clair-design/clair/commit/89994ee))
+* **cascader:** update cascader snapshot for unit test ([82408f8](https://github.com/clair-design/clair/commit/82408f8))
+* **table:** changing custom scrollbar style to origin ([ae8fa54](https://github.com/clair-design/clair/commit/ae8fa54))
+* **table:** fix normal table width long without scrollbar and fix stylelint error ([3974ca6](https://github.com/clair-design/clair/commit/3974ca6))
+* **table:** update table scrollbar style ([a2f0d6d](https://github.com/clair-design/clair/commit/a2f0d6d))
+
+## [0.7.6](https://github.com/clair-design/clair/compare/v0.7.5...v0.7.6) (2019-01-22)
+
+
+### Bug Fixes
+
+* **tabs:** add keydown handler, fix layout bug in IE ([4469538](https://github.com/clair-design/clair/commit/4469538))
+
+## [0.7.5](https://github.com/clair-design/clair/compare/v0.7.4...v0.7.5) (2019-01-15)
+
+
+### Bug Fixes
+
+* **pagination:** add a slot for customizing "next page" button ([852d3b1](https://github.com/clair-design/clair/commit/852d3b1))
+* **select:** label of options can be string, number and boolean ([2ab0136](https://github.com/clair-design/clair/commit/2ab0136))
+* **validation:** number 0 should NOT treated as empty value ([0803195](https://github.com/clair-design/clair/commit/0803195))
+
+## [0.7.4](https://github.com/clair-design/clair/compare/v0.7.3...v0.7.4) (2019-01-03)
+
+
+### Bug Fixes
+
+* **datepciker:** fix month range format and update maxdate checked valid ([2ad02f4](https://github.com/clair-design/clair/commit/2ad02f4))
+* **datepicker:** fix maxDate bug, IE node remove no support ([148500f](https://github.com/clair-design/clair/commit/148500f))
+* **datepicker:** update datepicker td render and remove console ([e79cced](https://github.com/clair-design/clair/commit/e79cced))
+
 ## [0.7.3](https://github.com/clair-design/clair/compare/v0.7.2...v0.7.3) (2018-12-21)
 
 
